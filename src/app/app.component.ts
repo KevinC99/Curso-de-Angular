@@ -11,6 +11,9 @@ export class AppComponent {
 
 items = ['lapiz','papel','sacapulas'];
 
+objeto={}
+
+power = 10;
 products:Product[] = [
   {
     id: '1',
@@ -53,12 +56,17 @@ products:Product[] = [
     title: 'Stickers',
     price: 80000,
     description: 'bla bla bla bla bla'
-  }
+  },
 ];
+
 addItem(){
   this.items.push('nuevo item')
   }
 deleteItem(index: number){
   this.items.splice(index,1); 
- }  
+}
+clickProduct(id:number){
+console.log('product');
+console.log(id);
+}
 }
