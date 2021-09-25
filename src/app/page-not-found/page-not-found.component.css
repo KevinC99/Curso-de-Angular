@@ -1,0 +1,28 @@
+figure{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 50%;
+    height: 30%;
+    margin-top: 10%;
+}
+div.error
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+div.Text{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px ;
+}
+.Errorpage-container{
+    width: 100%;
+}
+.Errorpage-topImage{
+    color: black;
+}
